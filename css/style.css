@@ -1,0 +1,18 @@
+.navbar-toggler{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    margin-left: 1px;
+    margin-right: 4px;
+    background-color: white;
+}
+
+.navbar-toggler span + span{
+    margin-top: 5px;
+}
