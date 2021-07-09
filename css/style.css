@@ -16,3 +16,38 @@
 .navbar-toggler span + span{
     margin-top: 5px;
 }
+
+.bg-img{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image:url("../img/Fondo.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .bg-img::before{
+    content:"";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.6;
+    z-index: 0;
+ }
+
+ .mask{
+     z-index: 1;
+ }
+
+ .mask h1{
+     font-size: 100px;
+     text-align: center;
+ }
+ 
+ .mask h2{
+    font-size: 50px;
+    text-align: center;
+}
