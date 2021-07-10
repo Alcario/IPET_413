@@ -13,37 +13,18 @@
     background-color: white;
 }
 
+.container.marketing{
+    padding-top: 20px;
+}
+
 .navbar-toggler span + span{
     margin-top: 5px;
 }
 
-/* .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-} */
-
 .bg-image{
     background-image: url('../img/Fondo.jpg');
     height: 100vh;
- }
-
- /* .bg-img::before{
-    content:"";
-    width: 100%;
-    min-height: 100%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.7);
-    background-size: contain;
-    background-repeat: no-repeat;
-    object-fit: fill;
-    opacity: 0.6;
-    z-index: 0;
-    padding-left: 16rem;
-    padding-right: 16px;
- } */
+}
 
  .mask{
      z-index: 1;
