@@ -1,3 +1,7 @@
+.mdb-color {
+    background-color: #212529 !important;
+}
+
 .navbar-toggler{
     height: 50px;
     width: 50px;
@@ -13,12 +17,12 @@
     background-color: white;
 }
 
-.container.marketing{
-    padding-top: 20px;
-}
-
 .navbar-toggler span + span{
     margin-top: 5px;
+}
+
+.container.marketing{
+    padding-top: 20px;
 }
 
 .bg-image{
